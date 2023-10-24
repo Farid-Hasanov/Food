@@ -60,6 +60,14 @@ header nav .home-color {
   width: 120px;
   margin: 20px 0 10px;
 }
+@media screen and (max-width: 992px) {
+  #beautiful .box h1 {
+    font-size: 40px;
+  }
+  #beautiful .box h5 {
+    font-size: 18px;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
