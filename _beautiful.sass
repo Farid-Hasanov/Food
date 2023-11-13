@@ -25,16 +25,36 @@
             margin: 20px 0 10px
 
     @media screen and ( max-width: 992px )
+        .col-md-6
+            width: 100%
+            display: flex
+            align-items: center
+            flex-direction: column
         .box
+            display: flex
+            align-items: center
+            flex-direction: column
+            text-align: center
             h1
                 font-size: 50px
+            h4
+                padding: 30px
+        .imgbox
+                width: 80%
 
     @media screen and ( max-width: 768px )
+        .imgbox
+            margin-left: 65px
+
+    @media screen and ( max-width: 576px )
         .box
             h1
-                font-size: 45px
-            .btn
+                font-size: 40px
+                margin: 0
+            h5
                 font-size: 18px
-                padding: 10px 20px
+                margin: 40px 10px
+            h4,h2
+                font-size: 18px
         .imgbox
-            margin-top: 30px
+            margin-left: 50px

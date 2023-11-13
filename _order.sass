@@ -17,3 +17,41 @@
             background-color: #38b6c1
             color: #ffff
             font-size: 20px
+
+    @media screen and ( max-width: 992px )
+        .row
+            display: flex
+            flex-direction: column-reverse
+        .col-md-6
+            width: 100%
+            display: flex
+            align-items: center
+            flex-direction: column
+            .textbox
+                text-align: center
+                h1
+                    font-size: 50px
+                    text-align: center
+                h5
+                    font-size: 18px
+                    margin: 20px 0
+                h2
+                    font-size: 18px
+        .imgbox
+            width: 70%
+
+    @media screen and ( max-width: 768px )
+        .col-md-6
+            .textbox
+                h1
+                    font-size: 40px
+                h5,h2
+                    font-size: 16px
+
+    @media screen and ( max-width: 576px )
+        .col-md-6
+            .textbox
+                h1
+                    font-size: 30px
+                h5,h2
+                    font-size: 14px
