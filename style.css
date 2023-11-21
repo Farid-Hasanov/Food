@@ -20,6 +20,21 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .btn {
+  color: #747474;
+  display: flex;
+  display: none;
+  border: 1px solid #2e3236;
+  font-weight: 700;
+  padding: 8px 15px;
+}
+header .btn h5 {
+  cursor: pointer;
+}
+header .btn .icon {
+  cursor: pointer;
+  margin-left: 8px;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -28,10 +43,12 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
-@media screen and (max-width: 576px) {
-  header nav a {
-    font-size: 18px;
-    margin-right: 15px;
+@media screen and (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+  header .btn {
+    display: flex;
   }
 }
 
